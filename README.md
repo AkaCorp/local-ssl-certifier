@@ -97,6 +97,14 @@ To enable HTTPS for your Angular application, follow these steps:
 
 ```
 
+3. **Run Your Angular Application**: Now you can run your Angular application with HTTPS by using the Angular CLI command:
+
+```bash
+ng serve
+```
+
+Your application should now be accessible via HTTPS at `https://subdomain.localhost:4200` or the port specified in your configuration.
+
 ## Contribution
 
 Contributions are welcome! If you have suggestions for improvements or if you would like to fix bugs, feel free to open a pull request.
