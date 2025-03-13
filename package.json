@@ -1,5 +1,5 @@
 {
-  "name": "ssl-local-certifier",
+  "name": "local-ssl-certifier",
   "version": "1.0.0",
   "description": "A tool to get our localhost on https",
   "bin": "cert.sh",
@@ -11,9 +11,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AkaCorp/ssl-local-certifier"
+    "url": "https://github.com/AkaCorp/local-ssl-certifier"
   },
-  "homepage": "https://github.com/AkaCorp/ssl-local-certifier",
+  "homepage": "https://github.com/AkaCorp/local-ssl-certifier",
   "license": "MIT",
   "dependencies": {
     "mkcert": "^3.2.0"

@@ -1,4 +1,4 @@
-# ssl-local-certifier
+# local-ssl-certifier
 
 A tool to enable HTTPS on your localhost using `mkcert`. This package provides an easy way to create SSL certificates for local development.
 
@@ -11,20 +11,20 @@ Before using this package, ensure that you have the following installed on your 
 
 ## Installation
 
-To install `ssl-local-certifier`, run the following command:
+To install `local-ssl-certifier`, run the following command:
 
 ```bash
-npm install -g ssl-local-certifier
+npm install -g local-ssl-certifier
 ```
 
-This installs the package globally, making the `ssl-local-certifier` command available in your terminal.
+This installs the package globally, making the `local-ssl-certifier` command available in your terminal.
 
 ## Usage
 
 To use this tool, run the following command:
 
 ```bash
-ssl-local-certifier
+local-ssl-certifier
 ```
 
 The script will prompt you to enter the domain for which you want to generate an SSL certificate, such as `subdomain.localhost` for a subdomain or `localhost` for localhost.
@@ -41,7 +41,7 @@ The generated SSL certificates will be placed in an `ssl` directory created in t
 
 To enable HTTPS for your Express application, follow these steps:
 
-1. **Generate SSL Certificates**: Use the ssl-local-certifier command to generate SSL certificates as mentioned previously.
+1. **Generate SSL Certificates**: Use the local-ssl-certifier command to generate SSL certificates as mentioned previously.
 
 2. **Configure your https server**: Update your index.ts file to include the SSL configuration.
 
@@ -71,7 +71,7 @@ https.createServer({ key, cert }, app).listen(env.SERVER_PORT, () => {
 
 To enable HTTPS for your Angular application, follow these steps:
 
-1. **Generate SSL Certificates**: Use the ssl-local-certifier command to generate SSL certificates as mentioned previously.
+1. **Generate SSL Certificates**: Use the local-ssl-certifier command to generate SSL certificates as mentioned previously.
 
 2. **Configure Angular**: Update your angular.json file to include the SSL configuration for the development server. You can do this by adding or modifying the "serve" options as follows:
 
