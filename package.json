@@ -1,5 +1,5 @@
 {
-  "name": "ssl-local-cerfifier",
+  "name": "ssl-local-certifier",
   "version": "1.0.0",
   "description": "A tool to get our localhost on https",
   "bin": "cert.sh",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/AkaCorp/ssl-local-certifier"
   },
-  "homepage": "https://github.com/angular/angular-cli",
+  "homepage": "https://github.com/AkaCorp/ssl-local-certifier",
   "license": "MIT",
   "dependencies": {
     "mkcert": "^3.2.0"
