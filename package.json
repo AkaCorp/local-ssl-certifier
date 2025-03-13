@@ -1,0 +1,21 @@
+{
+  "name": "ssl-local-cerfifier",
+  "version": "1.0.0",
+  "description": "A tool to get our localhost on https",
+  "bin": "cert.sh",
+  "author": "Tom Frenois",
+  "keywords": [
+    "mkcert",
+    "ssl",
+    "localhost"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AkaCorp/ssl-local-certifier"
+  },
+  "homepage": "https://github.com/angular/angular-cli",
+  "license": "MIT",
+  "dependencies": {
+    "mkcert": "^3.2.0"
+  }
+}
